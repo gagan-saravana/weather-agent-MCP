@@ -1,0 +1,16 @@
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# NiceGUI local storage
+.nicegui/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
