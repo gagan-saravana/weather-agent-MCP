@@ -14,7 +14,7 @@ from pydantic_ai.messages import FunctionToolCallEvent, FunctionToolResultEvent
 from fastmcp.client.transports import StdioTransport
 from pydantic_ai.mcp import MCPToolset
 
-# ---------------------------------------------------------------- agent ----
+# agent
 
 transport = StdioTransport(
     command=sys.executable,
@@ -49,7 +49,7 @@ async def _stop() -> None:
 app.on_startup(_start)
 app.on_shutdown(_stop)
 
-# ------------------------------------------------------------------ ui -----
+# UI
 
 CSS = """
 body { background: #212121; }

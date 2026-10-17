@@ -1,5 +1,7 @@
 # Weather Chat
 
+![alt text](agent+mcp.png)
+
 Weather Chat is a NiceGUI web app where a Pydantic AI assistant answers weather questions using tools from a local FastMCP server.
 
 ## What the project does
